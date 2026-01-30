@@ -1,0 +1,295 @@
+[{
+  "table_name": "membership_plans",
+  "column_name": "id",
+  "data_type": "character varying",
+  "is_nullable": "NO",
+  "column_default": "gen_random_uuid()"
+}, {
+  "table_name": "membership_plans",
+  "column_name": "community_id",
+  "data_type": "character varying",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "membership_plans",
+  "column_name": "name",
+  "data_type": "text",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "membership_plans",
+  "column_name": "slug",
+  "data_type": "text",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "membership_plans",
+  "column_name": "amount",
+  "data_type": "integer",
+  "is_nullable": "NO",
+  "column_default": "0"
+}, {
+  "table_name": "membership_plans",
+  "column_name": "currency",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": "'EUR'::text"
+}, {
+  "table_name": "membership_plans",
+  "column_name": "billing_type",
+  "data_type": "USER-DEFINED",
+  "is_nullable": "YES",
+  "column_default": "'annual'::membership_billing_type"
+}, {
+  "table_name": "membership_plans",
+  "column_name": "description",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "membership_plans",
+  "column_name": "is_active",
+  "data_type": "boolean",
+  "is_nullable": "YES",
+  "column_default": "true"
+}, {
+  "table_name": "membership_plans",
+  "column_name": "created_at",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "NO",
+  "column_default": "now()"
+}, {
+  "table_name": "membership_plans",
+  "column_name": "updated_at",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "NO",
+  "column_default": "now()"
+}, {
+  "table_name": "membership_plans",
+  "column_name": "tagline",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "membership_plans",
+  "column_name": "membership_type",
+  "data_type": "USER-DEFINED",
+  "is_nullable": "YES",
+  "column_default": "'FIXED_PERIOD'::membership_plan_type"
+}, {
+  "table_name": "membership_plans",
+  "column_name": "fixed_period_type",
+  "data_type": "USER-DEFINED",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "membership_plans",
+  "column_name": "rolling_duration_months",
+  "data_type": "integer",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "platform_audit_logs",
+  "column_name": "id",
+  "data_type": "character varying",
+  "is_nullable": "NO",
+  "column_default": "gen_random_uuid()"
+}, {
+  "table_name": "platform_audit_logs",
+  "column_name": "user_id",
+  "data_type": "character varying",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "platform_audit_logs",
+  "column_name": "action",
+  "data_type": "USER-DEFINED",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "platform_audit_logs",
+  "column_name": "target_type",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "platform_audit_logs",
+  "column_name": "target_id",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "platform_audit_logs",
+  "column_name": "details",
+  "data_type": "jsonb",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "platform_audit_logs",
+  "column_name": "ip_address",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "platform_audit_logs",
+  "column_name": "user_agent",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "platform_audit_logs",
+  "column_name": "country_code",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "platform_audit_logs",
+  "column_name": "success",
+  "data_type": "boolean",
+  "is_nullable": "YES",
+  "column_default": "true"
+}, {
+  "table_name": "platform_audit_logs",
+  "column_name": "error_message",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "platform_audit_logs",
+  "column_name": "created_at",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "NO",
+  "column_default": "now()"
+}, {
+  "table_name": "platform_sessions",
+  "column_name": "id",
+  "data_type": "character varying",
+  "is_nullable": "NO",
+  "column_default": "gen_random_uuid()"
+}, {
+  "table_name": "platform_sessions",
+  "column_name": "user_id",
+  "data_type": "character varying",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "platform_sessions",
+  "column_name": "token",
+  "data_type": "text",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "platform_sessions",
+  "column_name": "ip_address",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "platform_sessions",
+  "column_name": "user_agent",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "platform_sessions",
+  "column_name": "expires_at",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "platform_sessions",
+  "column_name": "revoked_at",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "platform_sessions",
+  "column_name": "created_at",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "NO",
+  "column_default": "now()"
+}, {
+  "table_name": "platform_verification_tokens",
+  "column_name": "id",
+  "data_type": "character varying",
+  "is_nullable": "NO",
+  "column_default": "gen_random_uuid()"
+}, {
+  "table_name": "platform_verification_tokens",
+  "column_name": "user_id",
+  "data_type": "character varying",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "platform_verification_tokens",
+  "column_name": "token",
+  "data_type": "text",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "platform_verification_tokens",
+  "column_name": "expires_at",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "platform_verification_tokens",
+  "column_name": "used_at",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "platform_verification_tokens",
+  "column_name": "created_at",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "NO",
+  "column_default": "now()"
+}, {
+  "table_name": "sections",
+  "column_name": "id",
+  "data_type": "character varying",
+  "is_nullable": "NO",
+  "column_default": "gen_random_uuid()"
+}, {
+  "table_name": "sections",
+  "column_name": "community_id",
+  "data_type": "character varying",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "sections",
+  "column_name": "name",
+  "data_type": "text",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "sections",
+  "column_name": "code",
+  "data_type": "character varying",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "sections",
+  "column_name": "type",
+  "data_type": "character varying",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "sections",
+  "column_name": "is_active",
+  "data_type": "boolean",
+  "is_nullable": "YES",
+  "column_default": "true"
+}, {
+  "table_name": "sections",
+  "column_name": "sort_order",
+  "data_type": "integer",
+  "is_nullable": "YES",
+  "column_default": "0"
+}, {
+  "table_name": "sections",
+  "column_name": "note",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}]

@@ -1,0 +1,75 @@
+# KOOMY — AUTH CORE
+## Exécution de l’audit comportemental (OBLIGATOIRE)
+
+⚠️ INSTRUCTION CRITIQUE  
+Le document
+2026-01-21__AUTH__auth_behavior_observation_matrix__AUDIT.md
+a été créé mais **les scénarios n’ont pas été exécutés**.
+
+Ce prompt a pour objectif UNIQUE de faire **l’exécution réelle** des scénarios
+en sandbox et de **remplir les observations**.
+
+---
+
+## 🎯 OBJECTIF
+
+Exécuter **réellement** chaque scénario listé dans :
+
+/docs/audits/2026-01/AUTH/2026-01-21__AUTH__auth_behavior_observation_matrix__AUDIT.md
+
+et compléter le document avec :
+- Résultat observé
+- Divergence (oui / non)
+- Gravité perçue
+
+Aucun nouveau fichier ne doit être créé.
+
+---
+
+## 🧪 MÉTHODE IMPOSÉE
+
+Pour CHAQUE scénario :
+
+1. Créer ou identifier les comptes nécessaires en sandbox
+2. Exécuter l’action décrite (login, accès, switch, etc.)
+3. Observer le comportement réel du système
+4. Compléter les champs correspondants
+
+⚠️ Interdiction de :
+- modifier le code
+- corriger un bug
+- ajouter des logs
+- “simuler” un résultat
+
+---
+
+## 🧾 RÈGLES DE REMPLISSAGE
+
+- “Résultat observé” = ce qui se passe réellement (réponse API, UI, erreur, accès autorisé/refusé)
+- “Divergence” = OUI si le résultat observé ≠ résultat attendu
+- “Gravité” :
+  - Faible : UX mineure
+  - Moyenne : confusion utilisateur
+  - Élevée : accès indu / blocage critique
+  - Critique : faille sécurité ou perte de contrôle
+
+Aucun champ ne doit rester à “⏳”.
+
+---
+
+## ⛔ INTERDICTIONS ABSOLUES
+
+- Ne pas proposer de solution
+- Ne pas analyser la cause
+- Ne pas anticiper la refonte
+
+Tu observes. Tu notes. Tu t’arrêtes.
+
+---
+
+## ✅ CRITÈRE DE FIN DE MISSION
+
+Le document est considéré terminé quand :
+- Tous les scénarios sont exécutés
+- Aucune cellule “⏳” ne subsiste
+- Le tableau “Résumé des divergences identifiées” est rempli

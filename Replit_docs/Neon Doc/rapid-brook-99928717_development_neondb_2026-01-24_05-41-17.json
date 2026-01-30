@@ -1,0 +1,195 @@
+[{
+  "column_name": "id"
+}, {
+  "column_name": "name"
+}, {
+  "column_name": "logo"
+}, {
+  "column_name": "primary_color"
+}, {
+  "column_name": "secondary_color"
+}, {
+  "column_name": "description"
+}, {
+  "column_name": "member_count"
+}, {
+  "column_name": "plan_id"
+}, {
+  "column_name": "subscription_status"
+}, {
+  "column_name": "created_at"
+}, {
+  "column_name": "owner_id"
+}, {
+  "column_name": "community_type"
+}, {
+  "column_name": "community_type_other"
+}, {
+  "column_name": "category"
+}, {
+  "column_name": "address"
+}, {
+  "column_name": "city"
+}, {
+  "column_name": "postal_code"
+}, {
+  "column_name": "country"
+}, {
+  "column_name": "contact_email"
+}, {
+  "column_name": "contact_phone"
+}, {
+  "column_name": "membership_start_date"
+}, {
+  "column_name": "membership_end_date"
+}, {
+  "column_name": "welcome_message"
+}, {
+  "column_name": "membership_fee_enabled"
+}, {
+  "column_name": "membership_fee_amount"
+}, {
+  "column_name": "currency"
+}, {
+  "column_name": "stripe_price_id"
+}, {
+  "column_name": "stripe_product_id"
+}, {
+  "column_name": "billing_period"
+}, {
+  "column_name": "siret"
+}, {
+  "column_name": "iban"
+}, {
+  "column_name": "bic"
+}, {
+  "column_name": "website"
+}, {
+  "column_name": "facebook"
+}, {
+  "column_name": "twitter"
+}, {
+  "column_name": "instagram"
+}, {
+  "column_name": "linkedin"
+}, {
+  "column_name": "stripe_customer_id"
+}, {
+  "column_name": "stripe_subscription_id"
+}, {
+  "column_name": "trial_ends_at"
+}, {
+  "column_name": "current_period_end"
+}, {
+  "column_name": "billing_status"
+}, {
+  "column_name": "full_access_granted_at"
+}, {
+  "column_name": "full_access_expires_at"
+}, {
+  "column_name": "full_access_reason"
+}, {
+  "column_name": "full_access_granted_by"
+}, {
+  "column_name": "stripe_connect_account_id"
+}, {
+  "column_name": "payments_enabled"
+}, {
+  "column_name": "platform_fee_percent"
+}, {
+  "column_name": "max_members_allowed"
+}, {
+  "column_name": "white_label"
+}, {
+  "column_name": "white_label_tier"
+}, {
+  "column_name": "billing_mode"
+}, {
+  "column_name": "setup_fee_amount_cents"
+}, {
+  "column_name": "setup_fee_currency"
+}, {
+  "column_name": "setup_fee_invoice_ref"
+}, {
+  "column_name": "maintenance_amount_year_cents"
+}, {
+  "column_name": "maintenance_currency"
+}, {
+  "column_name": "maintenance_next_billing_date"
+}, {
+  "column_name": "maintenance_status"
+}, {
+  "column_name": "internal_notes"
+}, {
+  "column_name": "brand_config"
+}, {
+  "column_name": "white_label_included_members"
+}, {
+  "column_name": "white_label_max_members_soft_limit"
+}, {
+  "column_name": "white_label_additional_fee_per_member_cents"
+}, {
+  "column_name": "custom_domain"
+}, {
+  "column_name": "account_type"
+}, {
+  "column_name": "distribution_channels"
+}, {
+  "column_name": "contract_member_limit"
+}, {
+  "column_name": "contract_member_alert_threshold"
+}, {
+  "column_name": "branding_logo_path"
+}, {
+  "column_name": "branding_icon_path"
+}, {
+  "column_name": "branding_splash_path"
+}, {
+  "column_name": "branding_primary_color"
+}, {
+  "column_name": "branding_secondary_color"
+}, {
+  "column_name": "member_id_prefix"
+}, {
+  "column_name": "member_id_counter"
+}, {
+  "column_name": "web_app_url"
+}, {
+  "column_name": "android_store_url"
+}, {
+  "column_name": "ios_store_url"
+}, {
+  "column_name": "saas_client_status"
+}, {
+  "column_name": "saas_status_changed_at"
+}, {
+  "column_name": "unpaid_since"
+}, {
+  "column_name": "suspended_at"
+}, {
+  "column_name": "terminated_at"
+}, {
+  "column_name": "self_enrollment_enabled"
+}, {
+  "column_name": "self_enrollment_channel"
+}, {
+  "column_name": "self_enrollment_mode"
+}, {
+  "column_name": "self_enrollment_slug"
+}, {
+  "column_name": "self_enrollment_eligible_plans"
+}, {
+  "column_name": "self_enrollment_required_fields"
+}, {
+  "column_name": "self_enrollment_sections_enabled"
+}, {
+  "column_name": "auth_mode"
+}, {
+  "column_name": "purge_scheduled_at"
+}, {
+  "column_name": "purge_status"
+}, {
+  "column_name": "purge_executed_at"
+}, {
+  "column_name": "member_join_code"
+}]

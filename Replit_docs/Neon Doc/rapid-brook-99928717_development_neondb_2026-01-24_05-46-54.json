@@ -1,0 +1,433 @@
+[{
+  "table_name": "accounts",
+  "column_name": "id",
+  "data_type": "character varying",
+  "is_nullable": "NO",
+  "column_default": "gen_random_uuid()"
+}, {
+  "table_name": "accounts",
+  "column_name": "email",
+  "data_type": "text",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "accounts",
+  "column_name": "password_hash",
+  "data_type": "text",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "accounts",
+  "column_name": "first_name",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "accounts",
+  "column_name": "last_name",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "accounts",
+  "column_name": "avatar",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "accounts",
+  "column_name": "auth_provider",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": "'email'::text"
+}, {
+  "table_name": "accounts",
+  "column_name": "provider_id",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "accounts",
+  "column_name": "created_at",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "NO",
+  "column_default": "now()"
+}, {
+  "table_name": "accounts",
+  "column_name": "updated_at",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "NO",
+  "column_default": "now()"
+}, {
+  "table_name": "accounts",
+  "column_name": "firebase_uid",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "id",
+  "data_type": "character varying",
+  "is_nullable": "NO",
+  "column_default": "gen_random_uuid()"
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "user_id",
+  "data_type": "character varying",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "community_id",
+  "data_type": "character varying",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "member_id",
+  "data_type": "text",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "role",
+  "data_type": "text",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "admin_role",
+  "data_type": "USER-DEFINED",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "status",
+  "data_type": "USER-DEFINED",
+  "is_nullable": "YES",
+  "column_default": "'active'::member_status"
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "section",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "join_date",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "NO",
+  "column_default": "now()"
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "contribution_status",
+  "data_type": "USER-DEFINED",
+  "is_nullable": "YES",
+  "column_default": "'pending'::contribution_status"
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "next_due_date",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "account_id",
+  "data_type": "character varying",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "claim_code",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "display_name",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "email",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "claimed_at",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "can_manage_articles",
+  "data_type": "boolean",
+  "is_nullable": "YES",
+  "column_default": "true"
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "can_manage_events",
+  "data_type": "boolean",
+  "is_nullable": "YES",
+  "column_default": "true"
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "can_manage_collections",
+  "data_type": "boolean",
+  "is_nullable": "YES",
+  "column_default": "true"
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "can_manage_messages",
+  "data_type": "boolean",
+  "is_nullable": "YES",
+  "column_default": "true"
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "can_manage_members",
+  "data_type": "boolean",
+  "is_nullable": "YES",
+  "column_default": "true"
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "can_scan_presence",
+  "data_type": "boolean",
+  "is_nullable": "YES",
+  "column_default": "true"
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "phone",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "membership_paid_at",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "membership_valid_until",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "membership_amount_paid",
+  "data_type": "integer",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "is_owner",
+  "data_type": "boolean",
+  "is_nullable": "YES",
+  "column_default": "false"
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "membership_plan_id",
+  "data_type": "character varying",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "membership_price_custom",
+  "data_type": "integer",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "membership_currency",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": "'EUR'::text"
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "membership_payment_status",
+  "data_type": "USER-DEFINED",
+  "is_nullable": "YES",
+  "column_default": "'free'::membership_payment_status"
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "membership_amount_due",
+  "data_type": "integer",
+  "is_nullable": "YES",
+  "column_default": "0"
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "membership_payment_provider",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "membership_payment_reference",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "tagline",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "salutation",
+  "data_type": "USER-DEFINED",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "first_name",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "last_name",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "profile_data",
+  "data_type": "jsonb",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "membership_start_date",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "membership_season_label",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "section_scope",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "section_ids",
+  "data_type": "jsonb",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "permissions",
+  "data_type": "jsonb",
+  "is_nullable": "YES",
+  "column_default": "'[]'::jsonb"
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "suspended_by_quota_limit",
+  "data_type": "boolean",
+  "is_nullable": "YES",
+  "column_default": "false"
+}, {
+  "table_name": "users",
+  "column_name": "id",
+  "data_type": "character varying",
+  "is_nullable": "NO",
+  "column_default": "gen_random_uuid()"
+}, {
+  "table_name": "users",
+  "column_name": "first_name",
+  "data_type": "text",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "users",
+  "column_name": "last_name",
+  "data_type": "text",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "users",
+  "column_name": "email",
+  "data_type": "text",
+  "is_nullable": "NO",
+  "column_default": null
+}, {
+  "table_name": "users",
+  "column_name": "password",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "users",
+  "column_name": "phone",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "users",
+  "column_name": "avatar",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "users",
+  "column_name": "created_at",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "NO",
+  "column_default": "now()"
+}, {
+  "table_name": "users",
+  "column_name": "global_role",
+  "data_type": "USER-DEFINED",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "users",
+  "column_name": "is_platform_owner",
+  "data_type": "boolean",
+  "is_nullable": "YES",
+  "column_default": "false"
+}, {
+  "table_name": "users",
+  "column_name": "is_active",
+  "data_type": "boolean",
+  "is_nullable": "YES",
+  "column_default": "false"
+}, {
+  "table_name": "users",
+  "column_name": "email_verified_at",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "users",
+  "column_name": "failed_login_attempts",
+  "data_type": "integer",
+  "is_nullable": "YES",
+  "column_default": "0"
+}, {
+  "table_name": "users",
+  "column_name": "locked_until",
+  "data_type": "timestamp without time zone",
+  "is_nullable": "YES",
+  "column_default": null
+}, {
+  "table_name": "users",
+  "column_name": "updated_at",
+  "data_type": "timestamp with time zone",
+  "is_nullable": "YES",
+  "column_default": "now()"
+}, {
+  "table_name": "users",
+  "column_name": "firebase_uid",
+  "data_type": "text",
+  "is_nullable": "YES",
+  "column_default": null
+}]

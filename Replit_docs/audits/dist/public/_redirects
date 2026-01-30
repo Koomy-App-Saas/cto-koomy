@@ -1,0 +1,6 @@
+# Cloudflare Pages proxy rules
+# CRITICAL: Order matters - specific rules first, SPA catch-all LAST
+
+/api/* https://api.koomy.app/api/:splat 200
+/objects/* https://api.koomy.app/objects/:splat 200
+/* /index.html 200

@@ -1,0 +1,21 @@
+[{
+  "table_name": "communities",
+  "column_name": "auth_mode",
+  "data_type": "USER-DEFINED"
+}, {
+  "table_name": "communities",
+  "column_name": "purge_executed_at",
+  "data_type": "timestamp without time zone"
+}, {
+  "table_name": "communities",
+  "column_name": "purge_scheduled_at",
+  "data_type": "timestamp without time zone"
+}, {
+  "table_name": "communities",
+  "column_name": "purge_status",
+  "data_type": "USER-DEFINED"
+}, {
+  "table_name": "user_community_memberships",
+  "column_name": "suspended_by_quota_limit",
+  "data_type": "boolean"
+}]

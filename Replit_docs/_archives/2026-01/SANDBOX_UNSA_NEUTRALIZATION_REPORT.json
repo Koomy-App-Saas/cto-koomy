@@ -1,0 +1,65 @@
+{
+  "executedAt": "2026-01-18T14:30:56.751Z",
+  "environment": "sandbox",
+  "mode": "CONFIRM",
+  "targetTenantId": "2b129b86-3a39-4d19-a6fc-3d0cec067a79",
+  "tenant": {
+    "before": {
+      "name": "UNSA Lidl",
+      "subscriptionStatus": "canceled",
+      "saasClientStatus": "RESILIE",
+      "customDomain": null,
+      "terminatedAt": "2026-01-18T13:53:25.987Z",
+      "brandConfig": {
+        "appName": "Unsa idl",
+        "logoUrl": "/objects/public/white-label/65d5ff48-a23f-4ada-8fde-9fb3a11faaf9.png",
+        "replyTo": "ritesmassamba@gmail.com",
+        "termsUrl": "https://app.koomy.app/website/unsa-lidl/terms",
+        "appIconUrl": "/objects/public/white-label/930a7d3d-b90f-4d9f-a1a3-51b935eb4040.png",
+        "brandColor": "#009de1",
+        "emailFromName": "UNSA Lidl France",
+        "showPoweredBy": false,
+        "deleteAccountUrl": "https://app.koomy.app/website/unsa-lidl/delete-account",
+        "emailFromAddress": "support@koomy.app",
+        "privacyPolicyUrl": "https://app.koomy.app/website/unsa-lidl/privacy"
+      }
+    },
+    "after": {
+      "name": "UNSA Lidl",
+      "subscriptionStatus": "canceled",
+      "saasClientStatus": "RESILIE",
+      "customDomain": null,
+      "terminatedAt": "2026-01-18T14:30:56.894Z",
+      "brandConfig": {
+        "appName": "ARCHIVED (Sandbox)",
+        "logoUrl": "/objects/public/white-label/65d5ff48-a23f-4ada-8fde-9fb3a11faaf9.png",
+        "replyTo": "no-reply@koomy-sandbox.local",
+        "termsUrl": "https://app.koomy.app/website/unsa-lidl/terms",
+        "appIconUrl": "/objects/public/white-label/930a7d3d-b90f-4d9f-a1a3-51b935eb4040.png",
+        "brandColor": "#009de1",
+        "emailFromName": "Koomy Sandbox",
+        "showPoweredBy": false,
+        "deleteAccountUrl": "https://app.koomy.app/website/unsa-lidl/delete-account",
+        "emailFromAddress": "no-reply@koomy-sandbox.local",
+        "privacyPolicyUrl": "https://app.koomy.app/website/unsa-lidl/privacy"
+      }
+    }
+  },
+  "admins": {
+    "count": 0,
+    "affected": []
+  },
+  "members": {
+    "count": 19,
+    "affected": 19
+  },
+  "verifications": {
+    "tenantDisabled": true,
+    "customDomainRemoved": true,
+    "brandConfigNeutralized": true,
+    "adminsDisabled": true,
+    "noOtherTenantsModified": true
+  },
+  "success": true,
+  "errors": []
+}

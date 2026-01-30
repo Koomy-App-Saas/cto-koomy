@@ -1,0 +1,5 @@
+{
+  "whiteLabel": false,
+  "mode": "standard",
+  "comment": "This file indicates that this is not a white-label deployment. The frontend will use this to avoid unnecessary API calls for white-label configuration."
+}

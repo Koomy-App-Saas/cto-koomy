@@ -1,0 +1,31 @@
+[{
+  "column_name": "id",
+  "data_type": "character varying"
+}, {
+  "column_name": "user_id",
+  "data_type": "character varying"
+}, {
+  "column_name": "provider",
+  "data_type": "USER-DEFINED"
+}, {
+  "column_name": "provider_id",
+  "data_type": "text"
+}, {
+  "column_name": "provider_email",
+  "data_type": "text"
+}, {
+  "column_name": "metadata",
+  "data_type": "jsonb"
+}, {
+  "column_name": "is_primary",
+  "data_type": "boolean"
+}, {
+  "column_name": "linked_at",
+  "data_type": "timestamp without time zone"
+}, {
+  "column_name": "last_used_at",
+  "data_type": "timestamp without time zone"
+}, {
+  "column_name": "created_at",
+  "data_type": "timestamp without time zone"
+}]
